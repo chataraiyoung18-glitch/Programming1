@@ -16,12 +16,12 @@ int main()
     cout << "Enter the capacity of the fuel tank in gallons: ";
     cin >> gallons;
     cout << "Enter the miles per gallon: ";
-    cin >> milesgergallon;
+    cin >> milespergallon;
     
 //Calculate the total driving range
     totalmiles=gallons* milespergallon;
 
-//Display the driving range
+//Display the driving range3
 cout << " The vehicle can be driven "
     << totalmiles
     << " miles without refueling." << endl;

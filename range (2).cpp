@@ -17,7 +17,7 @@ int main()
     cin >> gallons;
     cout << "Enter the miles per gallon: ";
     cin >> milespergallon;
-    
+
 //Calculate the total driving range
     totalmiles=gallons* milespergallon;
 

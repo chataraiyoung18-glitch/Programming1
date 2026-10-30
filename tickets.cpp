@@ -41,10 +41,10 @@ else
 }
 
     //Display price with exactly two decimal places
-    cout << fixed << setpercison (2);
+    cout << fixed << setprecision (2);
     cout << "Admission Price: $" << price << endl;
 
     // End the program
     return 0;
-]
+}
 

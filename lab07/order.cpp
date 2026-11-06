@@ -4,7 +4,7 @@
 //Filename: order.cpp
 //Description: This program will allow customers to select a lunch menu item, enter a quantity, and calulate the total cost of their order.
 #include <iostream>
-#include <iomani>
+#include <iomanip>
 #include <string>
 
 using namespace std;
@@ -16,7 +16,7 @@ int main()
   int quantity;
   string itemname;
   double price;
-  double total'
+  double total;
 
   //Display the lunch menu and its prices.
   cout << "Lunch Menu" << endl;
@@ -43,16 +43,16 @@ case 2:
 
 case 3:
   itemname = "Taco Salad";
-  price = 9.00
+  price = 9.00;
   break;
 
 case 4:
 itemname = "Baked Potato";
-price = 6.75
+price = 6.75;
   break;
 
 default: 
-  cout << "Invalid menu selection." << endl
+  cout << "Invalid menu selection." << endl;
   return 0;
 
 }
